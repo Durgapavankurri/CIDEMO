@@ -122,14 +122,14 @@
 			<id>Jacoco-Initialize></id>
 			<goals>
 			<goal>prepare-agent</goal>
-			<goals>
+			</goals>
 		</execution>
 		<execution>
 			<id>Jacoco-site></id>
 			<phase>package</phase>
 			<goals>
 			<goal>report</goal>
-			<goals>		
+			</goals>		
 		</execution>
 		</executions>
 	   </plugin>
